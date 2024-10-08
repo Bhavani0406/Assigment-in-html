@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Media Assignment</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            background-image: url('hhttps://img.freepik.com/free-photo/music-background-with-phone-with-music-icon-column-modern-technology-concept-listening-music_169016-14355.jpg?');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: black;;
+            text-shadow: 2px 2px 4px rgba(192, 94, 52, 0.5);
+        }
+        .media-container {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+        audio:hover, video:hover{
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            margin: 10px 0;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+        audio, video{
+            width: 90%;
+            max-width: 600px;
+            border-radius: 10px;
+            margin: 10px 0;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+        p {
+            font-size: 1.1em;
+            margin: 10px 0;
+            color: #e0e0e0; 
+        }
+    </style>
+</head>
+<body>
+
+    <h1>HTML Media Assignment</h1>
+
+    <div class="media-container">
+        <h2>Audio Player</h2>
+        <audio controls>
+            <source src="song.mp3" type="audio/mpeg"> 
+            Your browser does not support the audio element.
+        </audio>
+        <p>This audio clip captures the essence of tranquility, perfect for relaxation and meditation.</p>
+    </div>
+
+    <div class="media-container">
+        <h2>Video Player</h2>
+        <video controls>
+            <source src="https://cdn.pixabay.com/video/2023/11/26/190776-888535446_large.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+        <p>This video showcases breathtaking landscapes, transporting you to nature's beauty.</p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Semantic Elements Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5; /* Light background for contrast */
+        }
+        header {
+            background-color: #4a4e69; /* Darker header */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #9a8c98; /* Soft color for navigation */
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s; /* Smooth color transition */
+        }
+        nav a:hover {
+            color: #f0e1d2; /* Light color on hover */
+        }
+        section {
+            display: flex;
+            padding: 20px;
+            max-width: 1200px; /* Max width for main content */
+            margin: auto; /* Center the content */
+        }
+        article {
+            flex: 3;
+            margin-right: 20px;
+            background-color: #ffffff; /* White background for article */
+            padding: 20px;
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+        aside {
+            flex: 1;
+            background-color: #f4f4f4; /* Light grey sidebar */
+            padding: 20px;
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+        footer {
+            background-color: #4a4e69; /* Dark footer */
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px; /* Rounded corners */
+        }
+        h2, h3 {
+            color: #22223b; /* Darker color for headings */
+        }
+        p {
+            margin: 10px 0;
+        }
+        ul {
+            padding: 0;
+            list-style-type: none; /* Remove default list styling */
+        }
+        li {
+            margin: 5px 0;
+            background-color: #9a8c98; /* Background for list items */
+            padding: 10px;
+            border-radius: 5px; /* Rounded corners */
+            transition: background-color 0.3s; /* Smooth transition */
+        }
+        li a {
+            color: white; /* White text for links */
+            text-decoration: none;
+        }
+        li:hover {
+            background-color: #4a4e69; /* Change background on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Content Section -->
+    <section>
+        <!-- Article -->
+        <article>
+            <h2>Understanding HTML5 Semantic Elements</h2>
+            <p>HTML5 introduced a number of new semantic elements that make it easier to structure web pages in a meaningful way. These elements help improve accessibility and make the code more readable for both developers and search engines.</p>
+            <p>The purpose of using semantic tags in HTML is to organize your script based on the meaning of the HTML element rather than how it looks.</p>
+            <p>Some of the most important semantic elements include <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;aside&gt;</code>, and <code>&lt;footer&gt;</code>.</p>
+        </article>
+
+        <!-- Aside (Sidebar) -->
+        <aside>
+            <h3>Related Articles</h3>
+            <ul>
+                <li><a href="#html-intro">Introduction to HTML</a></li>
+                <li><a href="#html-forms">HTML Forms Explained</a></li>
+                <li><a href="#css-guide">CSS Basics</a></li>
+            </ul>
+        </aside>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Comments and Special Characters</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4; /* Light background */
+            margin: 0;
+            padding: 20px;
+            color: #333; /* Text color */
+        }
+        h1, h2 {
+            text-align: center;
+            color: #2c3e50; /* Darker color for headings */
+            margin: 10px 0;
+        }
+        p {
+            margin: 10px;
+            padding: 10px;
+            background-color: #ffffff; /* White background for paragraphs */
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+        ul {
+            list-style-type: none; /* Remove default list styling */
+            padding: 0;
+        }
+        li {
+            margin: 5px 0;
+            padding: 10px;
+            background-color: #e9ecef; /* Light grey background for list items */
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #2c3e50; /* Dark footer */
+            color: white;
+            border-radius: 5px;
+        }
+        /* Flexbox for main layout */
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center content horizontally */
+            max-width: 800px; /* Max width for the main container */
+            margin: auto; /* Center the container */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header section -->
+        <h1>Welcome to My HTML Page</h1>
+        
+        <!-- Paragraph with special characters -->
+        <p>
+            Here are some special characters used in HTML:
+            <br>
+            &amp; <!-- Display ampersand (&) -->
+            <br>
+            &lt; <!-- Display less than (<) -->
+            <br>
+            &gt; <!-- Display greater than (>) -->
+            <br>
+            &copy; <!-- Display copyright symbol (©️) -->
+            <br>
+            &reg; <!-- Display registered trademark (®️) -->
+            <br>
+            &trade; <!-- Display trademark (TM) -->
+        </p>
+
+        <!-- Section explaining comments and special characters -->
+        <h2>Explanation</h2>
+        <p>
+            Comments in HTML are written within <code>&lt;!-- --&gt;</code> tags and are not displayed on the page.
+            Special characters are represented using HTML entities, for example:
+        </p>
+        <ul>
+            <li><code>&amp;amp;</code> for &amp;</li>
+            <li><code>&amp;lt;</code> for &lt;</li>
+            <li><code>&amp;gt;</code> for &gt;</li>
+            <li><code>&amp;copy;</code> for &copy;</li>
+            <li><code>&amp;reg;</code> for &reg;</li>
+            <li><code>&amp;trade;</code> for &trade;</li>
+        </ul>
+
+        <!-- Footer section -->
+        <footer>
+            <p>&copy; 2024 My HTML Page</p>
+        </footer>
+    </div>
+
+</body>
+</html>
